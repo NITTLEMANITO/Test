@@ -1,0 +1,22 @@
+{
+  "name": "@Test-example/bundled",
+  "version": "0.0.0",
+  "dependencies": {
+    "@Test/core": "workspace:*",
+    "@Test/dashboard": "workspace:*",
+    "@Test/google-drive": "workspace:*",
+    "@Test/instagram": "workspace:*",
+    "@Test/tus": "workspace:*",
+    "@Test/url": "workspace:*",
+    "@Test/webcam": "workspace:*"
+  },
+  "devDependencies": {
+    "parcel": "^2.0.0"
+  },
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "parcel build index.html",
+    "dev": "parcel index.html"
+  }
+}
